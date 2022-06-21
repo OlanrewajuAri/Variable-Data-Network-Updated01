@@ -1,0 +1,53 @@
+
+nav{
+  background: #eef6f0;
+  backdrop-filter: blur(8px);
+}
+
+li {
+  padding-right: 1.8rem;
+}
+
+.Navbutton :hover {
+  background: #6fb883 !important;
+}
+
+.Navbutton :active {
+  background: #39764a !important;
+}
+
+.Navbutton button {
+  /* padding-right: 5rem; */
+  /* margin-right: 2rem; */
+}
+
+.NavText {
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background: #51a969;
+  border-radius: 4px;
+  border: 4px rgba(8, 32, 21, 0.95);
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  color: #fafbfa;
+}
+
+ul li a {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #41534a;
+}
+
+.navbar-nav li :hover{
+  color: #41534a !important;
+}

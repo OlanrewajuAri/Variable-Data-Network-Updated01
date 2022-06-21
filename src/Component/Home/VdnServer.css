@@ -1,0 +1,189 @@
+@media screen and (max-width: 1400px) {
+  body,
+  html {
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.Home11Container {
+  margin-top: 0rem;
+}
+
+.Home11ParentImg {
+  background-size: 100% 100% !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh;
+  object-fit: cover !important;
+  object-position: center center !important;
+  background: linear-gradient(
+      180deg,
+      rgba(1, 18, 10, 0.5),
+      rgba(1, 18, 10, 0.5)
+    ),
+    url(../../Images/Background.jpg);
+}
+
+@media screen and (max-width: 576px) {
+  .Home11ParentImg {
+    background-size: 100% 100% !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 50vh !important;
+    object-fit: cover !important;
+    object-position: center center !important;
+    background: linear-gradient(
+        180deg,
+        rgba(1, 18, 10, 0.5),
+        rgba(1, 18, 10, 0.5)
+      ),
+      url(../../Images/Background.jpg);
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Home11ParentImg {
+    background-size: 100% 100% !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 50vh;
+    object-fit: cover !important;
+    object-position: center center !important;
+    background: linear-gradient(
+        180deg,
+        rgba(1, 18, 10, 0.5),
+        rgba(1, 18, 10, 0.5)
+      ),
+      url(../../Images/Background.jpg);
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .Home11ParentImg {
+    background-size: 100% 100% !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 70vh !important;
+    object-fit: cover !important;
+    object-position: center center !important;
+    background: linear-gradient(
+        180deg,
+        rgba(1, 18, 10, 0.5),
+        rgba(1, 18, 10, 0.5)
+      ),
+      url(../../Images/Background.jpg);
+  }
+}
+
+.Home11Child {
+  width: 100%;
+  text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+  .Home11Child {
+    width: 100%;
+    text-align: center !important;
+   padding-top: 8rem;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Home11Child {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.Home11Child img {
+  width: 100px;
+  height: 60px;
+  /* margin-left: 19rem; */
+  margin-top: 15rem;
+}
+@media screen and (max-width: 576px) {
+  .Home11Child img{
+    display: none;
+    /* width: 60px;
+    height: 60px; */
+    /* margin-left: 19rem; */
+    /* margin-top: 13rem !important; */
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Home11Child img{
+    width: 60px;
+    height: 60px;
+    /* margin-left: 19rem; */
+    margin-top: 15% !important;
+    
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .Home11Child img{
+    width: 60px;
+    height: 60px;
+    /* margin-left: 19rem; */
+    margin-top: 23% !important;
+  }
+}
+.Home11Child h3 {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 70px;
+  text-align: center;
+  color: #fafbfa !important;
+  /* transform: translate(-0%,150%); */
+  width: 100%;
+  /* margin-top: 13rem !important; */
+ 
+}
+
+
+@media screen and (max-width: 576px) {
+  .Home11Child h3{
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;    
+    color: #FAFBFA;
+    /* padding-top: 7rem !important; */
+   
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Home11Child h3{
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;    
+    color: #FAFBFA;
+  }
+}
+
+@media screen and (min-width: 769px)and (max-width: 992px){
+  .Home11Child h3{
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px !important;
+    line-height: 40px;
+    text-align: center;    
+    color: #FAFBFA;
+  }
+}

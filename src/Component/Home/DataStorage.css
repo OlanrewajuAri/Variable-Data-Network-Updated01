@@ -1,0 +1,388 @@
+@media screen and (max-width: 1400px) {
+  body,
+  html {
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.DataStorageMainBody {
+  background: #ffffff;
+  /* height: 100vh; */
+  /* min-height: 100vh; */
+}
+@media screen and (max-width: 576px) {
+  .DataStorageMainBody {
+    /* height: 100vh; */
+    background: #ffffff;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .DataStorageMainBody {
+    /* height: 100vh; */
+    background: #ffffff;
+  }
+}
+
+.DataStorageBody {
+  display: flex;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+@media screen and (max-width: 576px) {
+  .DataStorageBody {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0%;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .DataStorageBody {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0%;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .DataStorageBody {
+    display: flex;
+    padding-top: 5%; 
+  }
+}
+
+.DataStorageText {
+  width: 40%;
+  padding-top: 4rem;
+  align-items: center;
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .DataStorageText {
+    width: 50%;
+    padding-top: 4rem;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) { 
+.DataStorageText {
+  width: 50%;
+  padding-top: 3rem;
+  align-items: center;
+}
+}
+
+@media screen and (max-width: 576px) {
+  .DataStorageText {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .DataStorageText {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.DataStorageText h6 {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #39764a;
+  margin-bottom: 0.5rem;
+}
+@media screen and (max-width: 576px) {
+  .DataStorageText h6 {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px !important;
+    line-height: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #39764a;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .DataStorageText h6 {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #39764a;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .DataStorageText h6 {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px !important;
+    line-height: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #39764a;
+  }
+}
+
+.DataStorageText h4 {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 48px;
+  color: #081f14;
+  margin-bottom: 1.1rem;
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .DataStorageText h4 {
+    font-family: "Clash Display";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 48px;
+    color: #081f14;
+    margin-bottom: 1.1rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .DataStorageText h4 {
+    font-family: "Clash Display";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px !important;
+    line-height: 25px !important;
+    text-align: center;
+    color: #081f14;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .DataStorageText h4 {
+    font-family: "Clash Display";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #081f14;
+    padding-top: 1rem !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .DataStorageText h4 {
+    font-family: "Clash Display";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 40px;
+    /* text-align: center; */
+    color: #081f14;
+    padding-top: 1rem !important;
+  }
+}
+
+.DataStorageText p {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #5c6b64;
+  width: 100% !important;
+}
+
+@media screen and (max-width: 576px) {
+  .DataStorageText p {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px !important;
+    line-height: 22px;
+    text-align: center;
+    color: #5c6b64;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .DataStorageText p {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #5c6b64;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .DataStorageText p {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px !important;
+    line-height: 22px;
+    color: #5c6b64;
+  }
+}
+
+.DataStorageFlex {
+  width: 40%;
+  margin-left: 10%;
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .DataStorageFlex {
+    width: 40%;
+    margin-left: 5%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .DataStorageFlex {
+    width: 100% !important;
+    margin-left: 0% !important;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .DataStorageFlex {
+    width: 100% !important;
+    margin-left: 0%;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .DataStorageFlex {
+    width: 50% !important;
+    margin-left: 5%;
+    /* margin-top: 2rem; */
+  }
+}
+
+.DataGrandchild {
+  border: 3px #ffffff;
+  margin-top: 0.5rem;
+  margin-left: 4rem;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 1rem 1rem 1rem 2rem;
+  color: #23382e;
+  background: #f5f6f6;
+}
+
+@media screen and (max-width: 576px) {
+  .DataGrandchild {
+    margin-left: 0rem;
+    margin-bottom: 1rem;
+    background: #f5f6f6;
+    border-radius: 8px;
+
+    font-family: "Clash Display";
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 13px !important;
+    line-height: 13px;
+    letter-spacing: 0.02em;
+    color: #23382e !important;
+
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .DataGrandchild {
+    margin-left: 0rem;
+    margin-bottom: 1rem;
+    background: #f5f6f6;
+    border-radius: 8px;
+
+    font-family: "Clash Display";
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    line-height: 13px;
+    letter-spacing: 0.02em;
+    color: #23382e !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .DataGrandchild {
+    margin-left: 0rem;
+    margin-bottom: 1rem;
+    background: #f5f6f6;
+    border-radius: 8px;
+
+    font-family: "Clash Display";
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    line-height: 13px;
+    letter-spacing: 0.02em;
+    color: #23382e !important;
+  }
+}
+
+a .DataGrandchild {
+  color: #23382e;
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 25px;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+
+.DataStorageArrow {
+  float: right;
+}
+
+a img {
+  margin-right: 1rem;
+}
+
+
+@media screen and (max-width: 576px) {
+  a img {
+    margin-right: 0rem;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  a img {
+    margin-right: 0rem;
+  }
+}
+
+
+@media screen and (max-width: 576px) {
+  a .DataGrandChildIcon {
+    margin-right: 1rem !important;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  a .DataGrandChildIcon {
+    margin-right: 0.5rem !important;
+  }
+}

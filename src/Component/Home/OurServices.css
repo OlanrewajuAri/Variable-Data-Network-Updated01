@@ -1,0 +1,331 @@
+@media screen and (max-width: 1400px) {
+  body,
+  html {
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.HomePage2MainBody {
+  /* min-height: 100vh !important; */
+  /* margin-bottom: 5rem; */
+  background: #F5F6F6;
+  padding-bottom: 5rem;
+}
+
+@media screen and (max-width: 576px) {
+  .HomePage2MainBody {
+    background: #F5F6F6;
+  }
+}
+
+@media screen and (min-width: 577px)and (max-width: 768px) {
+  .HomePage2MainBody {
+    background: #F5F6F6;
+  }
+}
+
+.HomePage2Body {
+  padding-top: 4rem;
+}
+
+/* @media screen and (min-width: 577)and (max-width: 768px) {
+.HomePage2Body {
+  padding-top: 15rem !important;
+  margin-top: 15rem !important;
+}
+} */
+
+.HomePage2Body h6 {
+  color: #39764a;
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+  .HomePage2Body h6 {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700 !important;
+    font-size: 10px !important;
+    line-height: 16px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #39764a;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .HomePage2Body h6 {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px !important;
+    line-height: 16px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #39764a;
+    padding-top: 2rem;
+  }
+}
+
+
+.HomePage2Body h3 {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 57px;
+  text-align: center;
+  color: #082015;
+  width: 60%;
+  margin-left: 15rem;
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+ 
+.HomePage2Body h3 {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 57px;
+  text-align: center;
+  color: #082015;
+  width: 100%;
+  margin-left: 0rem;
+}
+}
+
+
+@media screen and (max-width: 576px) {
+  .HomePage2Body h3 {
+    font-family: "Clash Display";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px !important;
+    line-height: 25px;
+    text-align: center;
+    color: #081f14;
+    width: 100%;
+    margin-left: 0rem;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .HomePage2Body h3 {
+    font-family: "Clash Display";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px !important;
+    line-height: 40px;
+    text-align: center;
+    color: #081f14;
+    width: 100%;
+    margin-left: 0rem;
+  }
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .HomePage2Body h3 {
+    font-family: "Clash Display";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 40px;
+    text-align: center;
+    color: #082015;
+    width: 100%;
+    margin-left: 0rem;
+  }
+}
+.HomePage2Body h3 span {
+  /* color: #ed5b49; */
+}
+
+.HomePage2Cards img {
+  padding: 1rem 1rem;
+}
+
+.HomePage2Flex {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  width: 100% !important;
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .HomePage2Flex {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }  
+}
+
+@media screen and (max-width: 576px) {
+  .HomePage2Flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .HomePage2Flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+.HomePage2Cards {
+  width: 32% !important;
+  
+  /* background: #f8fffc; */
+  border: 0px solid rgba(0, 0, 0, 0.12) !important;
+ 
+  margin-right: 0.5rem;
+}
+
+.card{
+  border-radius: 12px;
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) { 
+.HomePage2Cards {
+  width: 30% !important;
+  background: #f8fffc;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 12px;
+  margin-right: 0.5rem;
+}  
+}
+
+@media screen and (max-width: 576px) {
+  .HomePage2Cards {
+    width: 100% !important;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .HomePage2Cards {
+    width: 100% !important;
+    margin-bottom: 1rem;
+  }
+}
+
+.HomePage2Cards h4 {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 29px;
+  color: #081f14;
+}
+
+@media screen and (max-width: 576px) {
+  .HomePage2Cards h4 {
+    font-family: "Clash Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 29px;
+    color: #081f14;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .HomePage2Cards h4 {
+    font-family: "Clash Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 29px;
+    color: #081f14;
+  }
+}
+
+.HomePage2Cards p {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 19px;
+  color: #41534a;
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .HomePage2Cards p {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    color: #41534a;
+  }
+}
+
+.x :hover {
+  background: #6fb883;
+}
+
+.x :active {
+  background: #39764a;
+}
+
+button {
+  background: #51a969;
+  border-radius: 4px;
+  border: #51a969;
+  color: #fafbfa;
+  padding: 1rem 1rem;
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+}
+@media screen and (max-width: 576px) {
+  button{
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;    
+    letter-spacing: 0.01em;    
+    color: #FAFBFA;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .HomePage2Button {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px){
+  .HomePage2Button {
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 577px) and (max-width: 768px){
+  button {
+ margin-top: 2rem;
+ margin-bottom: 2rem;
+  }
+}

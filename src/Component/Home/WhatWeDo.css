@@ -1,0 +1,318 @@
+@media screen and (max-width: 1400px) {
+  body,
+  html {
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.Home7PageMain {
+  background: #142a20;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+}
+
+@media screen and (max-width: 576px) {
+  .Home7PageMain {
+    background: #142a20;
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+  }
+}
+
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Home7PageMain {
+    background: #142a20;
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .Home7PageMain {
+    background: #142a20;
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+  }
+}
+
+
+.HomePage7Body {
+  padding-top: 3rem !important;
+  background: #b8dcc2;
+  border-radius: 24px;
+  margin-top: 0rem !important;
+}
+
+@media screen and (max-width: 576px) {
+  .HomePage7Body {
+    padding-top: 3rem !important;
+    background: #b8dcc2;
+    border-radius: 24px;
+    margin-top: 0rem !important;
+    padding-bottom: 3rem !important;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .HomePage7Body {
+    padding-top: 3rem !important;
+    background: #b8dcc2;
+    border-radius: 24px;
+    margin-top: 0rem !important;
+    padding-bottom: 3rem !important;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .HomePage7Body {
+    padding-top: 3rem !important;
+    background: #b8dcc2;
+    border-radius: 24px;
+    margin-top: 0rem !important;
+    padding-bottom: 3rem !important;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+}
+.HomePage7Parent h6 {
+  color: #506058;
+
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 576px) {
+  .HomePage7Parent h6 {
+    color: #506058;
+
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .HomePage7Parent h6  {
+    color: #506058;
+
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px !important;
+    line-height: 16px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .HomePage7Parent h6  {
+    color: #506058;
+
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px !important;
+    line-height: 16px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}
+
+.HomePage7Parent h4 {
+  text-align: center;
+  color: #081f14;
+  /* width: 60%; */
+  width: 60%;
+  margin-left: 15rem;
+
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 48px;
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .HomePage7Parent h4 {
+    text-align: center;
+    color: #081f14;
+    /* width: 60%; */
+    width: 100%;
+    margin-left: 0rem;
+  
+    font-family: "Clash Display";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 48px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .HomePage7Parent h4 {
+    width: 100%;
+    margin-left: 0rem;
+
+    font-family: "Clash Display";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px !important;
+    line-height: 29px;
+
+    text-align: center;
+
+    color: #081f14;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .HomePage7Parent h4 {
+    width: 100%;
+    margin-left: 0rem;
+    font-family: "Clash Display";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #081f14;
+    padding-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .HomePage7Parent h4  {
+    width: 100%;
+    margin-left: 0rem;
+
+    font-family: "Clash Display";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 29px;
+
+    text-align: center;
+
+    color: #081f14;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .HomePage7Parent p {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px !important;
+    line-height: 20px;
+    text-align: justify;
+    color: #23382e;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px){
+  .HomePage7Parent p  {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px !important;
+    line-height: 20px;
+    text-align: justify;
+    color: #23382e;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .HomePage7Parent p  {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px !important;
+    line-height: 20px;
+    text-align: justify;
+    color: #23382e;
+  }
+}
+
+.hideonDesktop {
+  display: none;
+}
+
+@media screen and (min-width: 577px)and (max-width: 768px){
+  .hideonDesktop {
+    display: unset;
+    text-align: center !important;
+  }
+}
+
+@media screen and (min-width:769px)and (max-width: 992px){
+
+}
+
+
+@media screen and (max-width: 576px) {
+  .hideonDesktop {
+    display: unset;
+    text-align: center !important;
+  }
+}
+
+.HomePage7BookFlex {
+  display: flex;
+}
+
+@media screen and (max-width: 576px) {
+  .HomePage7BookFlex {
+    display: none;
+  }
+}
+@media screen and (min-width: 577px)and (max-width: 768px){
+  .HomePage7BookFlex {
+    display: none;
+  }
+}
+
+
+.HomePage7Book {
+  padding: 2rem 2rem;
+}
+@media screen and (min-width: 769px)and(max-width:992px) {
+  .HomePage7Book {
+    padding: 1rem 1rem !important;
+  }
+}
+
+/* @media screen and (max-width: 600px) {
+    .HomePage7Book {
+      padding: 0rem 0rem;
+    }
+  } */
+
+.HomePage7Book p {
+  text-align: justify;
+  color: #23382e;
+
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}

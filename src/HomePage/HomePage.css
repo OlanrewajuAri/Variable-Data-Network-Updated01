@@ -1,0 +1,344 @@
+.Home1Container {
+  background: #082015;
+  width: 100%;
+  height: 89vh;
+}
+
+.Home1Parent {
+  padding-top: 5rem;
+}
+
+.Home1Parent h1 {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 62px;
+  line-height: 55px;
+  text-align: center;
+  color: #ffffff;
+  width: 40%;
+  margin-left: 27rem;
+  padding-bottom: 0.2rem;
+}
+
+.Home1Parent span {
+  color: #506058;
+}
+
+a {
+  text-decoration: none;
+}
+
+.Home1Child p {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #fafbfa;
+}
+
+.Home1Child {
+  border: 2px solid #ed5b49;
+  width: 15%;
+  margin-left: 37rem;
+  background: #ed5b49;
+  border-radius: 4px;
+  padding-top: 1rem;
+  margin-top: 0rem;
+}
+
+.Home1Image img {
+  width: 1345px;
+  height: 295px;
+}
+
+/* Home Page3 CSS */
+
+.HomePage3Body {
+  background: linear-gradient(
+    246.02deg,
+    rgba(30, 196, 120, 0.75) 11.04%,
+    #0b4d2f 76.41%
+  );
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  padding-bottom: 3rem;
+  height: 100vh;
+}
+
+.HomePage3Flex {
+  display: flex;
+  padding-top: 10rem;
+}
+
+.HomePage3Image img {
+  height: 400px;
+}
+
+.HomePage3Body1 {
+  width: 50%;
+  margin-left: 3rem;
+}
+
+.HomePage3Body1 h3 {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 57px;
+  line-height: 57px;
+  color: #fafbfa;
+}
+
+.HomePage3Body1 p {
+  font-family: "Satoshi";
+  font-style: normal;
+
+  color: #dfe2e0;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  width: 90%;
+}
+
+.HomePage3ButtonFlex {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.HomePage3kid a {
+  background: #ffffff;
+  border-radius: 4px;
+  margin-right: 2rem;
+  text-decoration: none;
+  padding: 1rem 2rem;
+
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.HomePage3kid2 a {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  text-decoration: none;
+  padding: 1rem 2rem;
+
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.HomePage3kid2 :hover {
+  background: #6fb883;
+}
+
+.HomePage3kid2 :active {
+  background: #39764a;
+}
+
+/* HomePage4CSS */
+
+.HomePage4Body {
+  height: 100vh;
+}
+
+.HomePage4Parent {
+  padding-top: 10rem;
+  width: 50%;
+}
+
+.HomePage4Parent h3 {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 57px;
+  line-height: 57px;
+  color: #081f14;
+}
+
+.HomePage4Parent p {
+  font-family: "Satoshi";
+  font-style: normal;
+
+  color: #5c6b64;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  width: 80%;
+}
+
+.HomePage4kid {
+  margin-top: 3rem;
+}
+
+.HomePage4kid :hover {
+  background: #6fb883;
+}
+
+.HomePage4kid :active {
+  background: #39764a;
+}
+
+.HomePage4kid a {
+  background: #51a969;
+  border-radius: 4px;
+  padding: 1rem 2rem;
+  text-decoration: none;
+
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  color: #fafbfa;
+}
+
+/* HomePage5 */
+
+.HomePage5Body {
+  /* margin-top: -7rem; */
+  background: #142a20;
+}
+
+.scrolling {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  /* margin-top: 50px; */
+}
+
+.scrolling h2 {
+  position: absolute;
+  transform: translateX(100%);
+  animation: scrolling 15s linear infinite;
+
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #41534a;
+  padding-top: 1rem;
+}
+
+@keyframes scrolling {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* HomePage6Css */
+
+.HomePage6MainBody {
+  height: 100vh;
+}
+
+.HomePage6Body {
+  display: flex;
+  padding-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.HomePage6Text {
+  width: 60%;
+  margin-top: 6rem;
+}
+
+.HomePage6Text h4 {
+  color: #081f14;
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.HomePage6Text p {
+  color: #41534a;
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.HomePage6Children {
+  display: flex;
+  margin-left: 3rem;
+  flex-wrap: wrap;
+  /* width: 50%; */
+}
+
+.HomePage6GrandChild {
+  background: #f8fffc;
+  border: 1px solid #a6aeaa;
+  border-radius: 16px;
+  text-align: center;
+  width: 40%;
+  height: 30vh;
+  margin-right: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.HomePage6GrandChild h4 span {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 63px;
+  text-align: center;
+  color: #ed5b49;
+}
+
+.HomePage6GrandChild h4 {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 63px;
+  text-align: center;
+  color: #51a969;
+  padding-top: 2.5rem;
+}
+
+.HomePage6GrandChild p {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  text-align: center;
+  color: #41534a;
+}
+
+/* HomePage7Css */
+
+
+/* HomePage8CSS */
+
+
+/* home page 9 css */
+
+
+
+

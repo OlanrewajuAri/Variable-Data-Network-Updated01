@@ -1,0 +1,152 @@
+@media screen and (max-width: 1400px) {
+  body,
+  html {
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.LogoTrayParent {
+  margin-top: 3rem;
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .LogoTrayParent {
+    margin-top: 3rem;
+  }
+}
+
+
+
+.mobilecenter{
+  text-align: center;
+}
+
+
+.LogoTrayParent h6 {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.2em;
+
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #081f14;
+}
+
+@media screen and (max-width: 576px) {
+  .LogoTrayParent h6 {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #081f14;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .LogoTrayParent h6 {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #081f14;
+  }
+}
+
+.LogoTrayChildren img {
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .LogoTrayChildren {
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: center;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .LogoTrayChildren {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+   }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .LogoTrayChildren img {
+    height: 120px;
+    width: 120px;
+   }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .LogoTrayChildren img{
+    height: 100px;
+    width: 100px;
+    /* padding-right: 1rem; */
+    padding-bottom: 1rem;
+  }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .LogoTrayChildren img{
+    height: 120px;
+    width: 120px;
+    /* padding-bottom: 1rem; */
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .LogoTrayChildren {
+    display: none;
+  }
+}
+
+/* @media screen and (max-width: 768px) {
+  .LogoTrayChildren{
+  display: flex;
+  }
+} */
+
+
+.LogoTrayChildrenMobile {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .LogoTrayChildrenMobile {
+    display: unset; 
+    display: flex; 
+    flex-wrap: nowrap !important;
+    justify-content: center;
+    width: 100% !important;
+
+
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .LogoTrayChildrenMobile img {
+    width: 80px !important;
+    height: 100px;
+    margin-left: 0.5rem;
+  }
+}
+
+
+
